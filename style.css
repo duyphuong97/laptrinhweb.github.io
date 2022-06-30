@@ -1,0 +1,51 @@
+
+ li .menu{
+   display:inline-block;
+     text-align: center;
+
+ }
+
+ a {
+	 text-align: left;
+}
+
+ul li{
+  float: left;
+}
+
+li .menucon{
+  width: 200px;
+}
+
+ a{
+   display: block;
+   text-decoration: none;
+   color: black;
+ }
+
+.menucon a{
+  width: 100px;
+  padding: 3px;
+  text-decoration: none;
+}
+
+.menu .menucon{
+   z-index: 1;
+   width: 100px;
+}
+
+.menucon{
+ display: none;
+ position: absolute;
+ background-color: #d3d3d3;
+}
+
+.menu:hover .menucon{
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.menucon a:hover{
+ background-color: #fff;
+}

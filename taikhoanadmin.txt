@@ -1,0 +1,5 @@
+
+tai khoan admin: 
+
+username: admin
+pass:     admin
